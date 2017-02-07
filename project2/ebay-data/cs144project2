@@ -1,0 +1,17 @@
+1.Part A: Download and examine the XML data files
+2.Part B: Design your relational schema
+3.Part C: Write a data transformation program
+4.Part D: Load your data into MySQL
+5.Part F: CSS Layout
+
+Part A: Download and examine the XML data files
+1.download the XML-encoded ebay auction data：
+$ wget http://www.cs.ucla.edu/classes/winter15/cs144/projects/project2/ebay­data.zip
+$ unzip ­d $EBAY_DATA ebay­data.zip
+$ rm ebay­data.zip
+~done
+2.As a small data set for initial experimentation and debugging we suggest you use just one file: items- 0.xml. It contains 500 auctions, comprising about 900kb of plain-text data.
+
+3.Your first task is to examine the DTD and the XML files to completely understand the data you will be starting with. 
+
+4. Please read the auction data help file in items.txt.
